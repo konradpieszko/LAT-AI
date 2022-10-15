@@ -1,5 +1,5 @@
 # LAT-AI
-Artificial intelligence to predict the presence of left atrial thormbus in transesophageal echocardiography
+Artificial intelligence to predict the presence of left atrial appendage thormbus in transesophageal echocardiography
 
 Paper is currently under review. If you use this code / model, please cite our ESC Congress abstract. This repository will be updated with the trained model once the paper is published.
 
