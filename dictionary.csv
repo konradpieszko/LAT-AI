@@ -33,9 +33,9 @@ APTT,Activated partial thromboplastin time,Biomarker,Biomarker,Predictor,0,
 WBC,Whte blood cell count,Biomarker,Biomarker,Predictor,0,
 LA_dimension,Left atrial AP dimension,Echocardiography,Echocardiography,Predictor,0,
 EF,Left Ventricular Ejection Fraction,Echocardiography,Echocardiography,Predictor,0,
-LA_surface,Left atrial area,Echocardiography,Echocardiography,Predictor,0,
+LA_area,Left atrial area,Echocardiography,Echocardiography,Predictor,0,
 LAVI,Left atrial volume index,Echocardiography,Echocardiography,Predictor,0,
-TEE_base_clot_observed,transesophageal echocardiography base clot,Echocardiography,Echocardiography,Outcome,0,
-TEE_base_rythm,Rythm at the time of study,Clinical,Clinical,Predictor,0,
-base_OAC_chronic,Oral anticoagulant chronic,procedure,Clinical,Predictor,0,
+TEE_base_clot_observed,transesophageal echocardiography base clot,Echocardiography,Echocardiography,Outcome,0,"Yes = 1, No = 0"
+TEE_base_rythm,Rythm at the time of study,Clinical,Clinical,Predictor,0,"Sinus rythm = 1, Atrial fibrillatin =1 , Atrial flutter = 2"
+base_OAC_chronic,Oral anticoagulant chronic,procedure,Clinical,Predictor,0,"Yes = 1, No = 0"
 on_VKA,Vitamin K antagonist use,procedure,Clinical,Predictor,0,"Yes = 1, No = 0"

@@ -1,6 +1,6 @@
-AF,AFL,arrythmia_duration,EHRA,Age,Sex,BMI,HF_status,NYHA,MS,mitral_valve_replacement,aortic_valve_replacement,stroke_type,peripheral_embolus,procedure,vascular_disease,past_haemorrhage,CKD,HT,DM,labile_INR,alcohol,smoking,hyperthyroidism,hypothyroidism,creatinine,HGB,PLT,HCT,INR,APTT,WBC,LA_dimension,EF,LA_surface,LAVI,TEE_base_clot_observed,TEE_base_rythm,base_OAC_chronic,on_VKA
-1,0,3,2,91,2,28,2,1,3,3,3,3,0,2,1,0,1,1,0,0,0,3,0,0,1.9,15.2,175,47.0,1.2,32.7,7.0,42.0,58.0,23.0,,1,1,1,0
-1,0,2,4,74,2,25,1,1,3,3,3,3,0,3,1,0,1,1,0,0,0,3,0,0,1.4,14.5,402,42.0,1.1,39.2,7.4,48.0,49.0,37.7,69.5,0,0,1,0
-0,1,3,5,73,2,37,2,1,3,3,3,3,0,2,1,0,0,1,1,0,0,1,0,0,1.1,13.8,207,42.0,2.6,48.0,7.4,48.0,50.0,29.0,,0,2,1,0
-1,0,3,2,83,1,24,2,1,3,2,3,2,0,3,1,0,1,1,0,0,0,3,0,1,1.3,13.8,231,44.0,3.6,55.6,8.3,47.0,55.0,30.0,,1,1,1,1
-1,0,3,1,64,2,37,4,4,3,3,3,3,0,3,1,0,0,1,1,0,0,3,0,0,1.0,13.3,217,39.0,1.2,41.4,7.9,48.0,55.0,26.0,44.0,0,1,1,0
+AF,AFL,arrythmia_duration,EHRA,Age,Sex,BMI,HF_status,NYHA,MS,mitral_valve_replacement,aortic_valve_replacement,stroke_type,peripheral_embolus,procedure,vascular_disease,past_haemorrhage,CKD,HT,DM,labile_INR,alcohol,smoking,hyperthyroidism,hypothyroidism,creatinine,HGB,PLT,HCT,INR,APTT,WBC,LA_dimension,EF,LA_area,LAVI,TEE_base_clot_observed,TEE_base_rythm,base_OAC_chronic,on_VKA
+1,0,3,2,71,2,28,2,1,3,3,3,3,0,2,1,0,1,1,0,0,0,3,0,0,1.9,,,,,,,42,58,47,50,1,1,0,0
+1,0,2,4,42,2,25,1,1,3,3,3,3,0,3,1,0,1,0,0,0,0,3,0,0,1.4,14.5,402,42,1.1,39.2,7.4,48,54,37.7,51,0,0,1,0
+0,1,3,5,49,2,37,2,1,3,3,3,3,0,2,1,0,0,1,1,0,0,1,0,0,1.1,13.8,207,42,2.6,48,7.4,48,50,29,35,0,2,1,0
+1,0,3,2,55,1,24,2,1,3,2,3,2,0,3,1,0,1,0,0,0,0,3,0,1,1.3,13.8,231,44,3.6,55.6,8.3,47,30,30,61,1,0,1,1
+1,0,3,1,75,1,28,4,4,3,3,3,3,0,3,1,0,0,0,0,0,0,3,0,0,1,13.3,217,39,1.2,41.4,7.9,35,60,26,35,0,0,1,0
