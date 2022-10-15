@@ -1,0 +1,41 @@
+Variable,Display_name,Category,Display_category ,Usage,Categorical,Categories
+AF,Atrial fibrillation,Clinical,Clinical,Predictor,0,"Yes = 1, No = 0"
+AFL,Atrial flutter,Clinical,Clinical,Predictor,0,"Yes = 1, No = 0"
+arrythmia_duration,Paroxysmal vs. persistent,Clinical,Clinical,Predictor,1,"persistent = 1, paroxysmal = 2"
+EHRA,EHRA scale,Clinical,Clinical,Predictor,1,"I = 1, IIa = 2, Iib = 3, III = 4, IV = 5"
+Age,Age,Clinical,Clinical,Predictor,0,Age in years
+Sex,Sex,Clinical,Clinical,Predictor,0,"Male = 1, Female = 2"
+BMI,Body mass index (BMI),Clinical,Clinical,Predictor,0,
+HF_status,Heart failure,Clinical,Clinical,Predictor,1,"HFmrEF= 1, HFpEF = 2, HFrEF= 3, No HF = 4"
+NYHA,NYHA scale,Clinical,Clinical,Predictor,1,"I-II = 1, III=3, IV=3, No HF = 4"
+MS,Mitral stenosis,Clinical,Clinical,Predictor,1,"mild = 1, moderate to severe = 2, no MS = 3"
+mitral_valve_replacement,Mitral valve replacement,Clinical,Clinical,Predictor,1,"biological = 1, mechanical = 2, No MVR = 3"
+aortic_valve_replacement,Aortic valve replacement,Clinical,Clinical,Predictor,1,"biological = 1, mechanical = 2, No AVR = 3"
+stroke_type,History of stroke,Clinical,Clinical,Predictor,1,"haemorrhagic stroke = 1, ischaemic stroke =2, no history of stroke = 3"
+peripheral_embolus,Peripheral Embolus,Clinical,Clinical,Predictor,0,"history of peripheral embolism: Yes = 1, No = 0"
+procedure,Prior revascularisation,Clinical,Clinical,Predictor,1,"CABG = 1, No history of revasc = 2, PCI =3"
+vascular_disease,Vascular disease,Clinical,Clinical,Predictor,1,"Coronary artery disease only = 1, No history of atherosclerosis - 2, peripherial artery disease and coronary artery disease  = 3, peripheral artery disease only = 4"
+past_haemorrhage,Past haemorrhage,Clinical,Clinical,Predictor,0,"Yes = 1, No = 0"
+CKD,Chronic kidney disease,Clinical,Clinical,Predictor,0,"Yes = 1, No = 0"
+HT,Hypertension,Clinical,Clinical,Predictor,0,"Yes = 1, No = 0"
+DM,Diabetes Mellitus,Clinical,Clinical,Predictor,0,"Yes = 1, No = 0"
+labile_INR,Labile INR,Biomarker,Biomarker,Predictor,0,"Yes = 1, No = 0"
+alcohol,Alcohol,Clinical,Clinical,Predictor,0,"alkohol abuse: Yes = 1, No = 0"
+smoking,Smoking,Clinical,Clinical,Predictor,1,"currently = 1, in the past = 2, non-smoker = 3"
+hyperthyroidism,Hyperthyroidism,Clinical,Clinical,Predictor,0,"Yes = 1, No = 0"
+hypothyroidism,Hypothyroidism,Clinical,Clinical,Predictor,0,"Yes = 1, No = 0"
+creatinine,Creatinine,Biomarker,Biomarker,Predictor,0,"Yes = 1, No = 0"
+HGB,Hemoglobin level,Biomarker,Biomarker,Predictor,0,
+PLT,Platelet count,Biomarker,Biomarker,Predictor,0,
+HCT,Hematocrit,Biomarker,Biomarker,Predictor,0,
+INR,International normalized ratio (INR),Biomarker,Biomarker,Predictor,0,
+APTT,Activated partial thromboplastin time,Biomarker,Biomarker,Predictor,0,
+WBC,Whte blood cell count,Biomarker,Biomarker,Predictor,0,
+LA_dimension,Left atrial AP dimension,Echocardiography,Echocardiography,Predictor,0,
+EF,Left Ventricular Ejection Fraction,Echocardiography,Echocardiography,Predictor,0,
+LA_surface,Left atrial area,Echocardiography,Echocardiography,Predictor,0,
+LAVI,Left atrial volume index,Echocardiography,Echocardiography,Predictor,0,
+TEE_base_clot_observed,transesophageal echocardiography base clot,Echocardiography,Echocardiography,Outcome,0,
+TEE_base_rythm,Rythm at the time of study,Clinical,Clinical,Predictor,0,
+base_OAC_chronic,Oral anticoagulant chronic,procedure,Clinical,Predictor,0,
+on_VKA,Vitamin K antagonist use,procedure,Clinical,Predictor,0,"Yes = 1, No = 0"
