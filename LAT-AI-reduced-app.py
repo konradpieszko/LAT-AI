@@ -34,24 +34,18 @@ def make_prediction(age, arrythmia_duration_radio,TEE_base_rythm_radio,HF_status
 
 
 
-experiment_name = "lattee_xgboost_resulst_final_rev"
 
-#Create the input component for Gradio since we are expecting 4 inputs
 
 age_in = gr.Slider(label = "Enter the Age of the Individual",value=55)
 
 arrythmia_duration_in = gr.Radio(["Paroxysmal", "Persistent", "Long-standing peristent"], label="Arrhythmia type", value="Persistent")
 TEE_base_rythm_in = gr.Radio(["Sinus rhythm","Atrial fibrillation","Atrial flutter"],label = "Rhytm at the moment:", value="Atrial fibrillation")
-#labile_INR_in = gr.Checkbox(label = "Labile INR. For patients on Vitamin K antagonists, check below if less then 60% of available INR is within therapeutic range:")
 HF_status_in = gr.Radio(["HFrEF", "HFmrEF" ,"HFpEF" ,"No HF"],label = "Heart failure:", value="No HF")
 NYHA_in = gr.Radio(["I-II", "III", "IV", "No HF"], label = "NYHA class", value="I-II")
 EF_in = gr.Slider(label = "Left ventricular Ejection Fraction", value=50)
-
 LA_dimension_in = gr.Slider(label = "Left atrium anteroposterior dimension in parasternal short-axis view [mm]", value=40)
 LAVI_in = gr.Slider(label = "LAVI (left atrial volume indexed to body surface area in ml/m2 (if available)", value=20)
-#APTT_in = gr.Slider(label= "APTT (activated partial thromboplastin time) [seconds]", value=36)
 
-#LA_surface_in = gr.Slider(label = "Left atrial area in sqare cm (if available)", value=20)
 
 
 
