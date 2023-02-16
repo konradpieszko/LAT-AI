@@ -24,7 +24,7 @@ def make_prediction(age, arrythmia_duration_radio,TEE_base_rythm_radio,HF_status
         TEE_base_rythm_dict={"Sinus rhythm":0,"Atrial fibrillation":1,"Atrial flutter":2}
         TEE_base_rythm = TEE_base_rythm_dict[TEE_base_rythm_radio]
 
-        HF_dict= {"HFrEF":3, "HFmrEF":1 ,"HRpEF":2 ,"No HF":4}
+        HF_dict= {"HFrEF":3, "HFmrEF":1 ,"HFpEF":2 ,"No HF":4}
         HF_status =HF_dict[HF_status_radio]
 
         preds = clf.predict_proba([[age, arrythmia_duration,LA_dimension,LAVI,NYHA,HF_status,TEE_base_rythm,EF]])[:,1]
@@ -43,7 +43,7 @@ age_in = gr.Slider(label = "Enter the Age of the Individual",value=55)
 arrythmia_duration_in = gr.Radio(["Paroxysmal", "Persistent", "Long-standing peristent"], label="Arrhythmia type", value="Persistent")
 TEE_base_rythm_in = gr.Radio(["Sinus rhythm","Atrial fibrillation","Atrial flutter"],label = "Rhytm at the moment:", value="Atrial fibrillation")
 #labile_INR_in = gr.Checkbox(label = "Labile INR. For patients on Vitamin K antagonists, check below if less then 60% of available INR is within therapeutic range:")
-HF_status_in = gr.Radio(["HFrEF", "HFmrEF" ,"HRpEF" ,"No HF"],label = "Heart failure:", value="No HF")
+HF_status_in = gr.Radio(["HFrEF", "HFmrEF" ,"HFpEF" ,"No HF"],label = "Heart failure:", value="No HF")
 NYHA_in = gr.Radio(["I-II", "III", "IV", "No HF"], label = "NYHA class", value="I-II")
 EF_in = gr.Slider(label = "Left ventricular Ejection Fraction", value=50)
 
